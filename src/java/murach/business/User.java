@@ -8,8 +8,8 @@ public class User implements Serializable {
     private String email;
     private String dateOfBirth;
     private String hearAbout;
-    private String announceOffers;       // Yes/No
-    private String announceEmails;       // Yes/No
+    private String announceOffers;      
+    private String announceEmails;       
     private String contactMethod;
 
     public User() { }
@@ -28,7 +28,6 @@ public class User implements Serializable {
         this.contactMethod = contactMethod;
     }
 
-    // getters/setters
     public String getFirstName() { return firstName; }
     public void setFirstName(String firstName) { this.firstName = firstName; }
     public String getLastName() { return lastName; }
@@ -46,3 +45,4 @@ public class User implements Serializable {
     public String getContactMethod() { return contactMethod; }
     public void setContactMethod(String contactMethod) { this.contactMethod = contactMethod; }
 }
+
