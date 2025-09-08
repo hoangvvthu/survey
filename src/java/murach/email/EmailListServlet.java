@@ -30,7 +30,6 @@ public class EmailListServlet extends HttpServlet {
             String dateOfBirth  = request.getParameter("dateOfBirth");
             String hearAbout    = request.getParameter("hearAbout");
 
-            // Hai checkbox độc lập: có thể chọn 0/1/2
             String announceOffers = request.getParameter("announceOffers") != null ? "Yes" : "No";
             String announceEmails = request.getParameter("announceEmails") != null ? "Yes" : "No";
 
@@ -54,3 +53,4 @@ public class EmailListServlet extends HttpServlet {
         doPost(request, response);
     }
 }
+
